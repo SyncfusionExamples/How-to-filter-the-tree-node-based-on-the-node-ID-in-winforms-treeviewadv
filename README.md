@@ -1,8 +1,8 @@
-# How to filter the tree node based on the node ID in winforms treeviewadv?
+# How to filter the tree node based on the node ID in WinForms treeviewadv?
 
 ## Filter the node based on NodeID
 
-In the [TreeViewAdv](https://help.syncfusion.com/cr/windowsforms/Syncfusion.Windows.Forms.Tools.TreeViewAdv.html), [TreeNodeAdv](https://help.syncfusion.com/cr/windowsforms/Syncfusion.Windows.Forms.Tools.TreeNodeAdv.html) can be filtered based on its value by performing the iteration process. The following code example demonstrates the same.
+In the [WinForms TreeViewAdv](https://help.syncfusion.com/cr/windowsforms/Syncfusion.Windows.Forms.Tools.TreeViewAdv.html), [TreeNodeAdv](https://help.syncfusion.com/cr/windowsforms/Syncfusion.Windows.Forms.Tools.TreeNodeAdv.html) can be filtered based on its value by performing the iteration process. The following code example demonstrates the same.
 
 **C# Code snippet:**
 
@@ -16,6 +16,7 @@ for(int nodeId = 0; nodeId <= 10000; nodeId++)
     customNode.Text = "Node" + nodeId.ToString();
     this.treeViewAdv1.Nodes.Add(customNode);
 }
+
 //Iterates the nodes in the TreeViewAdv
 foreach (CustomTreeNodeAdv item in this.treeViewAdv1.Nodes)
 {
@@ -30,7 +31,7 @@ foreach (CustomTreeNodeAdv item in this.treeViewAdv1.Nodes)
 
 ```
 
-**VB Code snippet:**
+**VB.Net Code snippet:**
 
 ```VB
 
@@ -41,6 +42,7 @@ For nodeId As Integer = 0 To 10000
     customNode.Text = "Node" & nodeId.ToString()
     Me.treeViewAdv1.Nodes.Add(customNode)
 Next nodeId
+
 'Iterates the nodes in the TreeViewAdv
 For Each item As CustomTreeNodeAdv In Me.treeViewAdv1.Nodes
     'Gets the TextBox value
