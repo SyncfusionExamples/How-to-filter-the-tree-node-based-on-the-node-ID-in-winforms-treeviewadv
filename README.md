@@ -1,7 +1,5 @@
 # How to filter the tree node based on the node ID in WinForms TreeViewAdv?
 
-## Filter the node based on NodeID
-
 In the [WinForms TreeViewAdv](https://help.syncfusion.com/cr/windowsforms/Syncfusion.Windows.Forms.Tools.TreeViewAdv.html), [TreeNodeAdv](https://help.syncfusion.com/cr/windowsforms/Syncfusion.Windows.Forms.Tools.TreeNodeAdv.html) can be filtered based on its value by performing the iteration process. The following code example demonstrates the same.
 
 **C# Code snippet:**
