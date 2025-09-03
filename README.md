@@ -8,7 +8,7 @@ In the [WinForms TreeViewAdv](https://help.syncfusion.com/cr/windowsforms/Syncfu
 
 for(int nodeId = 0; nodeId <= 10000; nodeId++)
 {
-     //Custom node for ID propety
+     //Custom node for ID property
     CustomTreeNodeAdv customNode = new CustomTreeNodeAdv();
     customNode.ID = nodeId;
     customNode.Text = "Node" + nodeId.ToString();
