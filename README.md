@@ -32,9 +32,9 @@ foreach (CustomTreeNodeAdv item in this.treeViewAdv1.Nodes)
 **VB.Net Code snippet:**
 
 ```VB
-
+' Add 10,001 custom nodes to the TreeViewAdv
 For nodeId As Integer = 0 To 10000
-    'Custom node for ID propety
+    'Create a custom node with an ID property
     Dim customNode As New CustomTreeNodeAdv()
     customNode.ID = nodeId
     customNode.Text = "Node" & nodeId.ToString()
